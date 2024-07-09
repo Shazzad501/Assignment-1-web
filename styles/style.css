@@ -414,15 +414,15 @@ nav button {
 .next-target .react div {
   width: 938.22px;
   height: 139px;
-  margin-left:30px;
+  margin-left: 30px;
 }
-.next-target .react div h3{
+.next-target .react div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
   font-size: 24px;
   font-weight: 800;
 }
-.next-target .react div p{
+.next-target .react div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
@@ -430,14 +430,14 @@ nav button {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.next-target .react div button{
+.next-target .react div button {
   font-size: 16px;
   font-weight: 700;
   padding: 13px 0px;
   border: none;
   background: transparent;
 }
-.next-target .react div button a{
+.next-target .react div button a {
   color: rgb(13, 19, 33);
 }
 .next-target .node {
@@ -454,7 +454,7 @@ nav button {
 .next-target .node div {
   width: 938.22px;
   height: 139px;
-  margin-left:30px;
+  margin-left: 30px;
 }
 .next-target .node img {
   width: 143.3px;
@@ -463,13 +463,13 @@ nav button {
   justify-content: center;
   margin-top: 25px;
 }
-.next-target .node div h3{
+.next-target .node div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
   font-size: 24px;
   font-weight: 800;
 }
-.next-target .node div p{
+.next-target .node div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
@@ -477,14 +477,14 @@ nav button {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.next-target .node div button{
+.next-target .node div button {
   font-size: 16px;
   font-weight: 700;
   padding: 13px 0px;
   border: none;
   background: transparent;
 }
-.next-target .node div button a{
+.next-target .node div button a {
   color: rgb(13, 19, 33);
 }
 .next-target .mongo {
@@ -501,7 +501,7 @@ nav button {
 .next-target .mongo div {
   width: 938.22px;
   height: 139px;
-  margin-left:30px;
+  margin-left: 30px;
 }
 
 .next-target .mongo img {
@@ -511,13 +511,13 @@ nav button {
   justify-content: center;
   margin-top: 25px;
 }
-.next-target .mongo div h3{
+.next-target .mongo div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
   font-size: 24px;
   font-weight: 800;
 }
-.next-target .mongo div p{
+.next-target .mongo div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
@@ -525,14 +525,60 @@ nav button {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.next-target .mongo div button{
+.next-target .mongo div button {
   font-size: 16px;
   font-weight: 700;
   padding: 13px 0px;
   border: none;
   background: transparent;
 }
-.next-target .mongo div button a{
+.next-target .mongo div button a {
   color: rgb(13, 19, 33);
 }
 /* My Next target section styles close */
+
+/* I need support section stylels start */
+.support {
+  width: 1140px;
+  height: 313px;
+  margin: 110px auto;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.support h2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.support p {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.support .text {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support .btn {
+  width: 120px;
+  min-height: 57px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-size:16.5px;
+  font-weight: 500;
+}
+/* I need support section styles close */
