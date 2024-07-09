@@ -78,13 +78,181 @@ nav button {
   margin-top: 30px;
   margin-bottom: 40px;
 }
-.banner-container button{
+.banner-container button {
   border-radius: 8px;
-background: rgb(13, 19, 33);
-padding:13px 17px;
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-
+  background: rgb(13, 19, 33);
+  padding: 13px 17px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
 }
 /* Banner section styles close */
+
+/* Why web devlopment section styles start */
+.why-web {
+  width: 1140px;
+  height: 1393px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 80px 97px 80px 97px;
+  margin: 120px auto;
+}
+.why-web h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.why-web p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 24px auto;
+  text-align: center;
+}
+.why-web-1 {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+}
+.why-web-1 div {
+  width: 477px;
+  height: 219px;
+  text-align: start;
+  margin-right: 93px;
+}
+.why-web-1 h2 {
+  text-align: start;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.why-web-1 p {
+  text-align: start;
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.why-web-1 button {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  margin-top: 20px;
+
+}
+.why-web-1 img{
+  margin-top: -20px;
+}
+
+.why-web-2 {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+
+}
+.why-web-2 div {
+  width: 477px;
+  height: 219px;
+  text-align: start;
+  margin-left: 93px;
+
+}
+.why-web-2 h2 {
+  text-align: start;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.why-web-2 p {
+  text-align: start;
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.why-web-2 button {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  padding: 12px 20px;
+
+}
+.why-web-2 img{
+  margin-top: -20px;
+}
+
+.why-web-3 {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+
+}
+.why-web-3 div {
+  width: 477px;
+  height: 219px;
+  text-align: start;
+  margin-right: 93px;
+
+}
+.why-web-3 h2 {
+  text-align: start;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.why-web-3 p {
+  text-align: start;
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.why-web-3 button {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  padding: 12px 20px;
+
+}
+.why-web-3 img{
+  margin-top: -20px;
+}
+/* Why web devlopment section styles close */
