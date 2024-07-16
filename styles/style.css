@@ -13,7 +13,7 @@
 
 /* navigation bar styles start */
 nav {
-  width: 1440px;
+  max-width: 1440px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -24,12 +24,12 @@ nav {
 }
 nav h2 {
   color: rgb(13, 19, 33);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 nav button {
   color: rgb(13, 19, 33);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   padding: 10px;
   text-align: center;
@@ -71,12 +71,12 @@ nav button {
 .banner-container h2 {
   margin-top: 50px;
   color: rgb(13, 19, 33);
-  font-size: 38px;
+  font-size: 2.4rem;
   font-weight: 800;
 }
 .banner-container p {
   color: rgb(13, 19, 33);
-  font-size: 16px;
+  font-size:1rem;
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -94,7 +94,7 @@ nav button {
 
 /* Why web devlopment section styles start */
 .why-web {
-  width: 1140px;
+  max-width: 1140px;
   height: 1393px;
   flex-direction: row;
   justify-content: flex-start;
@@ -105,13 +105,13 @@ nav button {
 }
 .why-web h2 {
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   text-align: center;
 }
 .why-web p {
   color: rgb(13, 19, 33);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   opacity: 0.7;
   margin: 24px auto;
@@ -139,14 +139,14 @@ nav button {
 .why-web-1 h2 {
   text-align: start;
   color: rgba(13, 19, 33, 0.7);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   padding-top: 20px;
 }
 .why-web-1 p {
   text-align: start;
   color: rgb(13, 19, 33);
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20px;
   font-weight: 400;
   opacity: 0.7;
@@ -186,14 +186,14 @@ nav button {
 .why-web-2 h2 {
   text-align: start;
   color: rgba(13, 19, 33, 0.7);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   padding-top: 20px;
 }
 .why-web-2 p {
   text-align: start;
   color: rgb(13, 19, 33);
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20px;
   font-weight: 400;
   opacity: 0.7;
@@ -233,14 +233,14 @@ nav button {
 .why-web-3 h2 {
   text-align: start;
   color: rgba(13, 19, 33, 0.7);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   padding-top: 20px;
 }
 .why-web-3 p {
   text-align: start;
   color: rgb(13, 19, 33);
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20px;
   font-weight: 400;
   opacity: 0.7;
@@ -261,7 +261,7 @@ nav button {
 
 /* My inspiration section styles start */
 .inspiration {
-  width: 1140px;
+  max-width: 1140px;
   height: 775px;
   margin: auto auto;
   text-align: center;
@@ -271,12 +271,12 @@ nav button {
   text-align: center;
   margin: 24px 0px;
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
 }
 .inspiration p {
   color: rgb(13, 19, 33);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   margin: auto 144px;
@@ -300,13 +300,13 @@ nav button {
 
 /* Current target section start */
 .current-target {
-  width: 1140px;
+  max-width: 1140px;
   height: 460px;
   margin: 110px auto;
 }
 .current-target h2 {
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   text-align: center;
   margin-bottom: 24px;
@@ -314,7 +314,7 @@ nav button {
 .current-target .headline-p {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   opacity: 0.7;
   margin: auto 144px;
@@ -356,7 +356,7 @@ nav button {
 .target div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .target div button {
@@ -373,13 +373,13 @@ nav button {
 
 /* My Next target section styles start */
 .next-target {
-  width: 1140px;
+  max-width: 1140px;
   height: 866px;
   margin: auto auto;
 }
 .next-target h2 {
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 24px;
   text-align: center;
@@ -387,7 +387,7 @@ nav button {
 .next-target .next-p {
   opacity: 0.7;
   color: rgb(13, 19, 33);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin: auto 144px;
   margin-bottom: 48px;
@@ -419,14 +419,14 @@ nav button {
 .next-target .react div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .next-target .react div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -466,14 +466,14 @@ nav button {
 .next-target .node div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .next-target .node div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -514,14 +514,14 @@ nav button {
 .next-target .mongo div h3 {
   color: rgb(13, 19, 33);
   margin: 8px auto;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .next-target .mongo div p {
   text-align: start;
   color: rgb(13, 19, 33);
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -539,7 +539,7 @@ nav button {
 
 /* I need support section stylels start */
 .support {
-  width: 1140px;
+  max-width: 1140px;
   height: 313px;
   margin: 110px auto;
   padding: 64px 48px 64px 48px;
@@ -552,14 +552,14 @@ nav button {
 }
 .support h2 {
   color: rgb(255, 255, 255);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 17px;
 }
 .support p {
   opacity: 0.7;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -578,14 +578,14 @@ nav button {
   padding: 17px 20px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 /* I need support section styles close */
 
 /* footer section styles start */
 footer {
-  width: 1440px;
+  max-width:1440px;
   height: 100px;
   padding: 32px 150px;
   margin: auto auto;
@@ -595,7 +595,7 @@ footer {
 }
 footer p {
   color: rgb(13, 19, 33);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-align: start;
 }
@@ -609,3 +609,4 @@ footer div img {
   cursor: pointer;
 }
 /* footer section styles close */
+
